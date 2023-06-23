@@ -11,7 +11,7 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/chechkout@v2
+              uses: actions/checkout@v2
             
             - name: Display a message
               run: echo "Hello, Github Actions!"
